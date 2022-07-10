@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-color: #f6c80e;
+  --text-color: #fff;
+  --background-color: #978986;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.5s;
+  background-color: var(--main-color);
+  padding: 10px 0px;
+}
+
+.headertext {
+  font-size: 2rem;
+  padding-left: 3rem;
+  padding-top: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.navbvarimg {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+li {
+  font-size: 1.3rem;
+  padding-right: 1rem;
+}
+
+.amaterasu,
+.ame_no_uzume,
+.inari,
+.kannon,
+.susanoo {
+  width: 100%;
+  padding-top: 5rem;
+  display: flex;
+}
+
+div img {
+  height: 17rem;
+  width: 30rem;
+  padding: 0px 20px;
+}
+
+.para {
+  padding: 0px 30px;
+}
+
+.para h1 {
+  font-size: 4rem;
+}
+
+.para p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
